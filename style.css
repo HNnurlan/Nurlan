@@ -1,13 +1,124 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  height: 70px;
+  background-color: #212529;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+header .menu .imgbox {
+  width: 140px;
+  margin-left: 120px;
+}
+header .menu .btn {
+  color: white;
+  display: flex;
+  align-items: center;
+  display: none;
+  border: 1px solid rgba(255, 255, 255, 0.6470588235);
+  padding: 2px;
+  opacity: 0.6;
+}
+header .menu .btn h5 {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+}
+header .menu .btn .icon {
+  margin-left: 7px;
+  cursor: pointer;
+}
+header .menu nav {
+  margin-right: 120px;
+}
+header .menu nav a {
+  color: white;
+  font-size: 19px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+header .menu nav a:hover {
+  color: #ffcb11;
+}
+@media screen and (max-width: 576px) {
+  header .menu {
+    height: 70px;
+  }
+  header .menu .btn {
+    margin-right: 10px;
+    padding: 6px 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    margin-right: 30px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .menu nav {
+    margin-right: 55px;
+  }
+  header .menu nav a {
+    margin: 0 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 40px;
+  }
+}
+
+#welcome {
+  background-image: url(Assets/7.jpg);
+  height: 790px;
+  background-position: center;
+  background-size: cover;
+}
+#welcome .textbox {
+  position: relative;
+  text-align: center;
+  top: 220px;
+}
+#welcome .textbox h1, #welcome .textbox h2, #welcome .textbox h3 {
+  color: #fff7e6;
+  font-weight: 700;
+  line-height: 1.6;
+}
+#welcome .textbox h1 {
+  font-size: 25px;
+}
+#welcome .textbox h2 {
+  font-size: 80px;
+}
+#welcome .textbox .btn {
+  border-radius: 5px;
+  margin-top: 40px;
+  background-color: #ffc900;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
