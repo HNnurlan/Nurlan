@@ -121,4 +121,101 @@ header .menu nav a:hover {
   padding: 15px 40px;
   font-size: 20px;
   font-weight: 700;
+}
+
+#services .wid h1 {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 40px 0 0;
+}
+#services .wid h3 {
+  color: #8d8989;
+  font-size: 20px;
+  margin: 20px 0 40px 0;
+}
+#services .box {
+  margin-left: 10px;
+}
+#services .box .icon {
+  color: white;
+  width: 120px;
+  height: 120px;
+  background-color: #ffc900;
+  border-radius: 50%;
+  font-size: 60px;
+  margin: 20px 90px;
+  padding: 25px;
+}
+#services .textbox {
+  text-align: center;
+  margin-left: 10px;
+  width: 290px;
+}
+#services .textbox h2 {
+  margin-right: 10px;
+  font-size: 27px;
+  font-weight: 700;
+}
+#services .textbox p {
+  width: 300px;
+  font-size: 18px;
+  color: #8d8989;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+#portfolio {
+  background-color: rgba(172, 173, 175, 0.0862745098);
+}
+#portfolio .textbox {
+  padding-top: 40px;
+  text-align: center;
+}
+#portfolio .textbox h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+#portfolio .textbox p {
+  font-size: 20px;
+  color: #838489;
+  margin: 20px 0 40px 0;
+}
+#portfolio .textbox h2 {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 13px;
+}
+#portfolio .textbox h3 {
+  font-size: 20px;
+  color: #838489;
+}
+#portfolio .box {
+  margin-bottom: 30px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+#portfolio .box .textbox {
+  padding: 0;
+}
+#portfolio .box .imgbox {
+  position: relative;
+}
+#portfolio .box .imgbox .icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+}
+#portfolio .box .imgbox .icon:hover {
+  background-color: #ffbb00;
+  opacity: 0.9;
+  transition: 0.5s;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
